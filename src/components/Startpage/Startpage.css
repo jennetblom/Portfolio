@@ -1,0 +1,22 @@
+.startpage {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+  font-family: Akaya Telivigala;
+}
+
+#intro {
+    font-size: 20px;
+margin: 0px;
+padding: 0px;
+}
+#name {
+    font-size: 56px;
+    font-weight: bold;
+ 
+    margin: 0px;
+padding: 0px;
+}

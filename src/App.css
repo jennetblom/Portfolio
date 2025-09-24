@@ -1,0 +1,36 @@
+body {
+background: linear-gradient(
+  120deg, 
+  #F45FFF 0%, 
+  #ff5fb4 10%, 
+  #fabb8b 40%
+);
+  background-size: 300% 300%;
+  animation: gradientMove 8s ease infinite;
+  height: 100;
+  margin: 0;
+}
+
+/* @keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.profilePic {
+  width: 300px;
+  height: 400px;
+}
+
+.profilePic:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}

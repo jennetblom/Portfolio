@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Gemensamt för alla rutor */
+.decorative {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #6c5ce7;
+  position: relative;
+}
+
+/* 1. Blomma-kant med clip-path */
+.flower {
+  clip-path: polygon(
+    50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+    50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+  );
+}
+
+/* 2. Blad-kant med clip-path */
+
+
+/* 3. Våg-kant med pseudo-element */
+.wave {
+  background-color: #fd79a8;
+  border-radius: 0px;
+}
+.wave::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: radial-gradient(circle at 10% 50%, white 20%, transparent 21%) repeat-x;
+  background-size: 40px 30px;
+  z-index: 1;
+  opacity: 0.3;
+  border-radius: 50%;
+}
+
+/* 4. Rund blomma (kombination border-radius + clip-path) */
+.flower-round {
+  border-radius: 50%;
+  clip-path: polygon(
+    50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+    50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+  );
+  background-color: #e17055;
+}
