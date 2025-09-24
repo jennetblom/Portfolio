@@ -11,26 +11,18 @@ background: linear-gradient(
   margin: 0;
 }
 
-/* @keyframes gradientMove {
+/*  @keyframes gradientMove {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 10%;
   }
 
   50% {
-    background-position: 100% 50%;
+    background-position: 10% 20%;
   }
 
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 10%;
   }
-} */
+}  */
 
-.profilePic {
-  width: 300px;
-  height: 400px;
-}
 
-.profilePic:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}

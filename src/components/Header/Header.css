@@ -1,18 +1,20 @@
 body {
   margin: 0;
   padding: 0;
+
 }
 
 .header {
 
-  height: 60px;
+
   margin-top: 0px;
   padding-top: 0px;
-
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.header-items {
+.nav-items {
   display: flex;
   justify-content: flex-end;
   padding-right: 50px;
@@ -20,5 +22,50 @@ body {
   gap: 20px;
   font-size: 18px;
   font-style: bold;
+  font-family: Oswald;
+  color: #333;
 }
 
+#moon {
+
+  object-fit: contain;
+  width: 250px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#star {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  object-fit: contain;
+  width: 120px;
+}
+
+
+
+#star {
+  animation: float 4s ease-in-out infinite;
+}
+
+#moon {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 1s; /* gör så den börjar senare */
+}
+
+
+/* Keyframes för svävningen */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* uppåt */
+  }
+  100% {
+    transform: translateY(0); /* tillbaka ner */
+  }
+}
