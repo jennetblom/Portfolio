@@ -1,11 +1,14 @@
 .startpage {
     font-size: 24px;
     display: flex;
-    margin-top: 60px;
+    margin: 60px;
     flex-direction: row;
-
+    height:60vh;
+    align-items: center;
     justify-content: center;
     gap: 80px;
+
+    
 }
 
 .card {

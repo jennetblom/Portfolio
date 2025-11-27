@@ -31,3 +31,8 @@ imagePhoneContainer {
     display: flex;
     justify-content: center;
 }
+
+.roleTitle {
+    font-weight:500;
+    margin-bottom: 0px;
+}

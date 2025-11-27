@@ -1,6 +1,6 @@
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import './Projects.css';
-import lillaDagens from '../../assets/lillaDagens.jpg';
+import lillaDagens from '../../assets/lillaGumman.jpg';
 import lillaChat from '../../assets/lillaChat.jpg';
 import lillaKonvo from '../../assets/lillaKonvo.jpg';
 import lillaProfil from '../../assets/lillaProfil.jpg';
@@ -42,7 +42,9 @@ function Projects() {
           För att samarbeta i realtid, kan man bjuda in andra personer till sin tavla via en länk.
         </p>
         <img src={jellioBoard} className='imageDesktop' />
+
         <p>
+          
           Målet med projektet var att skapa mitt examensarbete och samtidigt få förståelse för hur man använder sig av
           en mer komplex databashantering. Hela applikationen är byggd av mig, med Trello som inspiration för design och funktionalitet.
         </p>
@@ -52,12 +54,8 @@ function Projects() {
 
 
       <ProjectCard title="Lilla Gumman" subTitle="Ett grupprojekt med React Native ">
-        <p>Detta grupprojekt utvecklades under min LIA-praktik hos företaget Lilla Gumman.
-          <br />
-          <br />
-          Målet var att skapa en app där humor, eftertanke och gemenskap inspirerar till positiv förändring i vardagen.
-          Appen ger användarna daglig inspiration genom roliga och träffsäkra citat samt ett forum för att dela tankar kring en
-          gemensam daglig fråga.
+        <p>En app utvecklad under min LIA hos företaget Lilla Gumman. 
+          Appen ger daglig inspiration genom humoristiska citat och en daglig fråga i ett community-forum. Den innehåller även en länk till “Lilla Gumman GPT”, en digital karaktär där användaren kan chatta med en virtuell personlighet.
           <br />
           <br />
 
@@ -71,11 +69,6 @@ function Projects() {
         </div>
 
         <p>
-
-
-          Den innehåller även en extern länk till “Lilla Gumman GPT” –
-          en chatt där man kan prata med den virtuella karaktären “Lilla Gumman”, känd för sin humor, värme och attityd.
-          <br />  <br />
           Jag hade en bred roll i projektet och arbetade med både frontend och backend,
           bland annat genom att utveckla Firebase-funktioner, Cloud Functions och delar av adminvyn.
         </p>
@@ -85,9 +78,8 @@ function Projects() {
 
 
       <ProjectCard title="PetBnB" subTitle="Grupparbete i Swift för iOS">
-        <p>Ett gruppprojekt i skolan som är inspirerat av AirBnB – men med en twist.
-          I stället för att betala med pengar kan användare hyra bostäder genom att erbjuda djurvaktstjänster.
-          <br />
+        <p>En AirBnB-inspirerad app där användare hyr bostäder genom att erbjuda djurvaktstjänster istället för pengar. 
+   
           I appen kan användarna utforska olika bostäder, spara dem i en favoritlista, chatta direkt med husägare och
           se bostäderna markerade på en karta.
         </p>
@@ -97,15 +89,12 @@ function Projects() {
           <img src={petHouse} className='project-image' />
           <img src={petChat} className='project-image' />
         </div>
-
+<p>Jag utvecklade stora delar av profilsidan samt majoriteten av chatten. Jag stöttade även teamet med mindre uppgifter i deras delar för att säkerställa att allt gick ihop.</p>
       </ProjectCard>
 
 
       <ProjectCard title="Tic Tac Party" subTitle="Ett grupparbete utvecklad i Kotlin för Android">
-        <p>Tic Tac Party är ett grupprojekt där jag tillsammans med mitt team har utvecklat en Android-applikation i Kotlin.
-
-          Spelet inkluderar användargränssnitt, logik för turordning, kontroll av vinnande kombinationer samt nätverkskommunikation så att
-          två spelare kan spela mot varandra över internet.
+        <p>Tic Tac Party är ett Androidspel där två spelare kan mötas online i realtid i en Tic Tac Toe-match. Spelet inkluderar turordning, vinstlogik, nätverkskommunikation och ett tydligt UI.
 
         </p>
         <div className='imagePhoneContainer'>
@@ -114,15 +103,14 @@ function Projects() {
           <img src={ticWin} className='project-image' />
           <img src={ticLeader} className='project-image' />
         </div>
-        <p>     Jag har varit delaktig i utvecklingen av spelet Tic Tac Toe, med fokus på funktionalitet för att spela online mot andra spelare
-          i realtid. </p>
+        <p> Jag bidrog till grundlayouten och arbetade tillsammans med två andra i teamet med spellogiken. När tidsbrist uppstod gick jag även in och stöttade med matchmaking-rummet, vilket gjorde att vi kunde komma vidare och slutföra projektet i tid. </p>
       </ProjectCard>
 
 
       <ProjectCard title="Go Fish" subTitle="Eget projekt i Android">
-        <p>Detta är ett individuellt projekt som jag utvecklade i Android och en av de första mobilapparna jag skapade under utbildningen. Appen är en digital version av kortspelet "Finns i sjön", där målet är att samla så många fyrtal som möjligt i samma valör.
-          <br />
-          <br />
+        <p> Appen är en digital version av kortspelet "Finns i sjön", där målet är att samla fyrtal i olika valörer. Projektet var ett av mina första mobilappar i utbildningen.
+  
+          
           Jag utvecklade både spel­logiken och animationer som visar hur korten flyttas, vilket gav mig en bättre förståelse för hur man gör appar mer levande och interaktiva.
         </p>
         <div className='imagePhoneContainer'>
@@ -134,6 +122,7 @@ function Projects() {
         <p>
           Hela applikationen är byggd av mig själv, från design till kodning.
         </p>
+
       </ProjectCard>
 
     </div>
