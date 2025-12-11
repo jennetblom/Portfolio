@@ -10,16 +10,18 @@ function Header() {
 
     <header className='header'>
       <div>
-        <img src={Moon} id='moon' />
+        <img src={Moon} id='moon' alt="Måne med stjärnor" />
       </div>
-        <nav className='nav-items'>
-          <Link to="/" className='nav-links'>Hem</Link>
-          <Link to="/projects" className='nav-links'>Projekt</Link>
-          <Link to="/about" className='nav-links'>Om mig</Link>
-          <Link to="/contact" className='nav-links'>Kontakt</Link>
-          <Link to="/projects" className='nav-links'>CV</Link>
-        <img src={Star} id='star' />
+      <nav className='nav-items'>
+        <ul className='nav-links-list'>
+          <li><Link to="/" className='nav-links'>Hem</Link></li>
+          <li><Link to="/projects" className='nav-links'>Projekt</Link></li>
+          <li><Link to="/about" className='nav-links'>Om mig</Link></li>
+          <li><Link to="/contact" className='nav-links'>Kontakt</Link></li>
+          <li><Link to="/projects" className='nav-links'>Cv</Link></li>
+        </ul>
       </nav>
+      <img src={Star} id='star' alt="Stjärna" />
     </header>
   )
 }

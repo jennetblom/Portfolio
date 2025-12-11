@@ -12,30 +12,28 @@ function Startpage() {
     };
     return (
 
-        <div className='startpage'>
-            <div className='card'>
+        <main className='startpage'>
+            <section className='card'>
 
-                <div className='nameInfo'>
+                <header className='nameInfo'>
                     <p id='intro'>
                         Hej, mitt namn är
                     </p>
                     <h1 id='name'>Jennet Blom</h1>
-                </div>
+                </header>
                 <p id='description'>
                     Jag är en nyexaminerad apputvecklare som gillar att vara kreativ och påhittig.
-                    <br></br>
+                    <br />
                     Har erfarenhet av både mobila plattformar och crossplattformutveckling.
                 </p>
                 <button className='button' onClick={handleClick}>Se mina projekt</button>
-            </div>
+            </section>
 
-            <div className='image-container'>
-       
+            <aside className='image-container'>
                 <img src={profilbild} className='profilePic' />
-                
-            </div>
+            </aside>
             <img src={workplace} id='workplace'></img>
-        </div>
+        </main>
 
     )
 }

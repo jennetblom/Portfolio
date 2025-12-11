@@ -25,6 +25,11 @@ body {
   font-family: Oswald;
   color: #333;
 }
+.nav-links-list { 
+  list-style: none;     
+  display: flex;       
+  gap: 20px;        
+ }
 
 #moon {
 
