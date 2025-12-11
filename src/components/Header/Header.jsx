@@ -8,22 +8,19 @@ function Header() {
 
   return (
 
-    <div className='header'>
+    <header className='header'>
       <div>
         <img src={Moon} id='moon' />
       </div>
-
-      <div>
-        <div className='nav-items'>
+        <nav className='nav-items'>
           <Link to="/" className='nav-links'>Hem</Link>
           <Link to="/projects" className='nav-links'>Projekt</Link>
-          <Link to="/projects" className='nav-links'>Om mig</Link>
+          <Link to="/about" className='nav-links'>Om mig</Link>
           <Link to="/contact" className='nav-links'>Kontakt</Link>
           <Link to="/projects" className='nav-links'>CV</Link>
-        </div>
         <img src={Star} id='star' />
-      </div>
-    </div>
+      </nav>
+    </header>
   )
 }
 
