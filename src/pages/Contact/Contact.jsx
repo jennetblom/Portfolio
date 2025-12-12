@@ -11,12 +11,8 @@ function Contact() {
       <section className='contactContainer'>
         <article className='contact-card'>
 
-          <h2 className='contact-card__heading'>
-            Har du frågor eller söker ni en ny kollega?
-          </h2>
-
           <p>
-            Aktivt på jakt efter jobb inom apputveckling, och tips på lediga tjänster tas tacksamt emot.
+            Jag är aktivt på jakt efter jobb inom programmering, och tips på lediga tjänster tas tacksamt emot.
             Ser fram emot att bidra till spännande projekt och samarbeten.
           </p>
 

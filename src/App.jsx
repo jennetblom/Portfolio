@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 import Projects from './pages/Projects/Projects.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 import About from './pages/About/About.jsx';
+import Resume from './pages/Resume/Resume.jsx';
 function App() {
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </Layout>
     </div>

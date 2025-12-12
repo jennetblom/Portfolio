@@ -18,7 +18,7 @@ function Header() {
           <li><Link to="/projects" className='nav-links'>Projekt</Link></li>
           <li><Link to="/about" className='nav-links'>Om mig</Link></li>
           <li><Link to="/contact" className='nav-links'>Kontakt</Link></li>
-          <li><Link to="/projects" className='nav-links'>Cv</Link></li>
+          <li><Link to="/resume" className='nav-links'>CV</Link></li>
         </ul>
       </nav>
       <img src={Star} id='star' alt="Stjärna" />

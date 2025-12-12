@@ -31,7 +31,19 @@
     margin-bottom: 0px;
     margin-top: 10px;
    font-weight: 600;
-
-
  
+}
+
+#profilePic {
+    width: 300px;
+    object-fit: contain;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutCardProfile {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    align-items: center;
 }
