@@ -3,6 +3,7 @@ import './Home.css'
 import rectangle from '../../assets/Rectangle.png';
 import workplace from '../../assets/workplace.png';
 import clickSound from "../../assets/clicksound.wav";
+import Button from '../../components/Button/Button.jsx';
 function Startpage() {
 
     const handleClick = () => {
@@ -26,7 +27,7 @@ function Startpage() {
                     <br />
                     Har erfarenhet av både mobila plattformar och crossplattformutveckling.
                 </p>
-                <button className='button' onClick={handleClick}>Se mina projekt</button>
+                <Button label="Se mina projekt" onClick={handleClick} />
             </section>
 
             <aside className='image-container'>

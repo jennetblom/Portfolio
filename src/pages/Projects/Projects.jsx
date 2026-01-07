@@ -19,16 +19,16 @@ import petHouse from '../../assets/petHouse.jpg';
 import petHost from '../../assets/petHost.jpg';
 import petAnimal from '../../assets/petAnimal.jpg';
 import petChat from '../../assets/petChat.jpg';
-
-
+import Button from '../../components/Button/Button.jsx';
+import GitHub from '../../assets/Github.png';
 function Projects() {
   return (
     <main className='projects-page'>
       <h1 className='title'>Projekt</h1>
-      <ProjectCard title="Jellio" subTitle="Eget projekt i React">
+      <ProjectCard title="Jellio" subTitle="Eget projekt i React" githubLink="https://github.com/jennetblom/Jellio.git">
         <p>
           Den här hemsidan är inspirerad av Trello – ett digitalt verktyg för att planera och organisera projekt.
-        </p>
+        </p> 
         <section className='imageDesktopContainer'>
           <img src={jellioStart} className='imageDesktop' />
           <img src={jellioWork} className='imageDesktop' />
@@ -46,10 +46,10 @@ function Projects() {
         </p>
       </ProjectCard>
 
-      <ProjectCard title="Lilla Gumman" subTitle="Ett grupprojekt med React Native ">
+      <ProjectCard title="Lilla Gumman" subTitle="Ett grupprojekt med React Native "  githubLink="https://github.com/dittnamn/weather-app">
         <p>En app utvecklad under min LIA hos företaget Lilla Gumman.
-          Appen ger daglig inspiration genom humoristiska citat och en daglig fråga i ett community-forum. 
-          Den innehåller även en länk till “Lilla Gumman GPT”, 
+          Appen ger daglig inspiration genom humoristiska citat och en daglig fråga i ett community-forum.
+          Den innehåller även en länk till “Lilla Gumman GPT”,
           en digital karaktär där användaren kan chatta med en virtuell personlighet.
         </p>
         <section className='imagePhoneContainer'>
@@ -62,10 +62,11 @@ function Projects() {
           Jag hade en bred roll i projektet och arbetade med både frontend och backend,
           bland annat genom att utveckla Firebase-funktioner, Cloud Functions och delar av adminvyn.
         </p>
+        <Button label="Se mina projekt" onClick={() => { console.log("Hej") }} />
       </ProjectCard>
 
 
-      <ProjectCard title="PetBnB" subTitle="Grupparbete i Swift för iOS">
+      <ProjectCard title="PetBnB" subTitle="Grupparbete i Swift för iOS"  githubLink="https://github.com/jennetblom/PetBnB.git">
         <p>En AirBnB-inspirerad app där användare hyr bostäder genom att erbjuda djurvaktstjänster istället för pengar.
           I appen kan användarna utforska olika bostäder, spara dem i en favoritlista, chatta direkt med husägare och
           se bostäderna markerade på en karta.
@@ -76,14 +77,14 @@ function Projects() {
           <img src={petHouse} className='project-image' />
           <img src={petChat} className='project-image' />
         </section>
-        <p>Jag utvecklade stora delar av profilsidan samt majoriteten av chatten. 
+        <p>Jag utvecklade stora delar av profilsidan samt majoriteten av chatten.
           Jag stöttade även teamet med mindre uppgifter i deras delar för att säkerställa att allt gick ihop.
-          </p>
+        </p>
       </ProjectCard>
 
 
-      <ProjectCard title="Tic Tac Party" subTitle="Ett grupparbete utvecklad i Kotlin för Android">
-        <p>Tic Tac Party är ett Androidspel där två spelare kan mötas online i realtid i en Tic Tac Toe-match. 
+      <ProjectCard title="Tic Tac Party" subTitle="Ett grupparbete utvecklad i Kotlin för Android"  githubLink="https://github.com/KJNyhlin/Tic-Tac-Party.git">
+        <p>Tic Tac Party är ett Androidspel där två spelare kan mötas online i realtid i en Tic Tac Toe-match.
           Spelet inkluderar turordning, vinstlogik, nätverkskommunikation och ett tydligt UI.
         </p>
         <section className='imagePhoneContainer'>
@@ -92,17 +93,17 @@ function Projects() {
           <img src={ticWin} className='project-image' />
           <img src={ticLeader} className='project-image' />
         </section>
-        <p> Jag bidrog till grundlayouten och arbetade tillsammans med två andra i teamet med spellogiken. 
-          När tidsbrist uppstod gick jag även in och stöttade med matchmaking-rummet, 
-          vilket gjorde att vi kunde komma vidare och slutföra projektet i tid. 
-          </p>
+        <p> Jag bidrog till grundlayouten och arbetade tillsammans med två andra i teamet med spellogiken.
+          När tidsbrist uppstod gick jag även in och stöttade med matchmaking-rummet,
+          vilket gjorde att vi kunde komma vidare och slutföra projektet i tid.
+        </p>
       </ProjectCard>
 
 
-      <ProjectCard title="Go Fish" subTitle="Eget projekt i Android">
+      <ProjectCard title="Go Fish" subTitle="Eget projekt i Android"  githubLink="https://github.com/jennetblom/GoFish.git">
         <p> Appen är en digital version av kortspelet "Finns i sjön", där målet är att samla fyrtal i olika valörer.
-           Projektet var ett av mina första mobilappar i utbildningen.
-          Jag utvecklade både spel­logiken och animationer som visar hur korten flyttas, 
+          Projektet var ett av mina första mobilappar i utbildningen.
+          Jag utvecklade både spel­logiken och animationer som visar hur korten flyttas,
           vilket gav mig en bättre förståelse för hur man gör appar mer levande och interaktiva.
         </p>
         <section className='imagePhoneContainer'>
