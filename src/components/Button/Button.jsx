@@ -8,7 +8,14 @@ function Button({ label, to, onClick }) {
     const audio = new Audio(clickSound);
     audio.volume = 0.2;
     audio.play();
-    navigate(to);
+
+    if (onClick) {
+      onClick();
+    }
+    if (to) {
+      navigate(to);
+    }
+
   }
   return (
     <button onClick={handleClick} className="button" >

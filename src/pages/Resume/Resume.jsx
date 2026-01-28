@@ -13,7 +13,9 @@ function Resume() {
                 <h2 className='resume-header'>UTBILDNING</h2>
                 <p className='resume-headingText'>Folkuniversitetet i Göteborg | Mobilapplikationsutvecklare | 2023 – 2025</p>
                 <p className='resume-text'>
-                    En yrkesutbildning på 2 år där jag fått lära mig arbeta i Android, IOS och utveckla i cross-plattformutveckling samt bygga appar med hjälp av databaser. Utbildningen inkluderar mycket praktisk erfarenhet kombinerat med teori. Vi har fått arbeta med agila metoder och samarbeta i grupp via Github.
+                    Praktiskt inriktad utbildning inom Android-, iOS- och cross-plattformutveckling där jag har arbetat med att bygga appar med databaser och molntjänster.
+
+                    Under utbildningen har jag fått praktisk erfarenhet av agila arbetssätt, teamarbete och versionshantering via GitHub. Jag har även genomfört två LIA-perioder samt ett examensarbete, där jag självständigt utvecklade en applikation från idé till färdig lösning.
                 </p>
                 <p className='resume-headingText'>Per Brahegymnasiet i Jönköping | Estetiska programmet – Musik | 2014 – 2017</p>
                 <p className='resume-text'>
@@ -45,7 +47,7 @@ function Resume() {
                 </h2>
                 <p className='resume-text'> Programmeringsspråk: Java, Kotlin, Swift, JavaScript, C#, HTML, CSS, React, React Native</p>
                 <p className='resume-text'>Verktyg och teknologier: Android Studio, Xcode, GitHub, Firestore, AWS, Figma, Trello</p>
-                <Button label="Ladda ner CV" to="/resume" />
+                <Button label="Ladda ner CV" onClick={() => { console.log("Hej") }} />
             </div>
         </main>
 
