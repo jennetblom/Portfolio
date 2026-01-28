@@ -37,7 +37,8 @@
     object-fit: contain;
     padding: 0px;
     margin: 0;
-    background-color: rgba(238, 106, 192, 0.611);
+
+    background-color: rgba(224, 79, 173, 0.611);
     border-radius: 8px;
     position: absolute;
     top: 15px;

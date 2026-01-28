@@ -1,5 +1,6 @@
 import './About.css';
 import happy from '../../assets/happy.jpg';
+import Button from '../../components/Button/Button.jsx';
 function About() {
   return (
     <main>
@@ -28,6 +29,7 @@ function About() {
           <p className='aboutCardText'>
             Utöver programmering tycker jag om att skapa musik, måla, läsa och röra på mig på olika sätt.
           </p>
+          <Button label="Kontakta mig" to="/contact" />
         </article>
       </section>
 

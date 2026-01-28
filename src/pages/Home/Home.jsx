@@ -3,14 +3,18 @@ import './Home.css'
 import rectangle from '../../assets/Rectangle.png';
 import workplace from '../../assets/workplace.png';
 import clickSound from "../../assets/clicksound.wav";
+import { useNavigate } from 'react-router-dom';
 import Button from '../../components/Button/Button.jsx';
 function Startpage() {
 
-    const handleClick = () => {
+    const navigate = useNavigate();
+
+/*     const handleClick = () => {
         const audio = new Audio(clickSound);
         audio.volume = 0.2;
         audio.play();
-    };
+        navigate('/projects');
+    }; */
     return (
 
         <main className='startpage'>
@@ -27,7 +31,7 @@ function Startpage() {
                     <br />
                     Har erfarenhet av både mobila plattformar och crossplattformutveckling.
                 </p>
-                <Button label="Se mina projekt" onClick={handleClick} />
+                <Button label="Se mina projekt" to="/projects" />
             </section>
 
             <aside className='image-container'>

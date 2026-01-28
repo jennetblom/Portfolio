@@ -28,7 +28,7 @@ function Projects() {
       <ProjectCard title="Jellio" subTitle="Eget projekt i React" githubLink="https://github.com/jennetblom/Jellio.git">
         <p>
           Den här hemsidan är inspirerad av Trello – ett digitalt verktyg för att planera och organisera projekt.
-        </p> 
+        </p>
         <section className='imageDesktopContainer'>
           <img src={jellioStart} className='imageDesktop' />
           <img src={jellioWork} className='imageDesktop' />
@@ -46,7 +46,7 @@ function Projects() {
         </p>
       </ProjectCard>
 
-      <ProjectCard title="Lilla Gumman" subTitle="Ett grupprojekt med React Native "  githubLink="https://github.com/dittnamn/weather-app">
+      <ProjectCard title="Lilla Gumman" subTitle="Ett grupprojekt med React Native">
         <p>En app utvecklad under min LIA hos företaget Lilla Gumman.
           Appen ger daglig inspiration genom humoristiska citat och en daglig fråga i ett community-forum.
           Den innehåller även en länk till “Lilla Gumman GPT”,
@@ -62,11 +62,10 @@ function Projects() {
           Jag hade en bred roll i projektet och arbetade med både frontend och backend,
           bland annat genom att utveckla Firebase-funktioner, Cloud Functions och delar av adminvyn.
         </p>
-        <Button label="Se mina projekt" onClick={() => { console.log("Hej") }} />
       </ProjectCard>
 
 
-      <ProjectCard title="PetBnB" subTitle="Grupparbete i Swift för iOS"  githubLink="https://github.com/jennetblom/PetBnB.git">
+      <ProjectCard title="PetBnB" subTitle="Grupparbete i Swift för iOS" githubLink="https://github.com/jennetblom/PetBnB.git">
         <p>En AirBnB-inspirerad app där användare hyr bostäder genom att erbjuda djurvaktstjänster istället för pengar.
           I appen kan användarna utforska olika bostäder, spara dem i en favoritlista, chatta direkt med husägare och
           se bostäderna markerade på en karta.
@@ -83,7 +82,7 @@ function Projects() {
       </ProjectCard>
 
 
-      <ProjectCard title="Tic Tac Party" subTitle="Ett grupparbete utvecklad i Kotlin för Android"  githubLink="https://github.com/KJNyhlin/Tic-Tac-Party.git">
+      <ProjectCard title="Tic Tac Party" subTitle="Ett grupparbete utvecklad i Kotlin för Android" githubLink="https://github.com/KJNyhlin/Tic-Tac-Party.git">
         <p>Tic Tac Party är ett Androidspel där två spelare kan mötas online i realtid i en Tic Tac Toe-match.
           Spelet inkluderar turordning, vinstlogik, nätverkskommunikation och ett tydligt UI.
         </p>
@@ -100,11 +99,12 @@ function Projects() {
       </ProjectCard>
 
 
-      <ProjectCard title="Go Fish" subTitle="Eget projekt i Android"  githubLink="https://github.com/jennetblom/GoFish.git">
+      <ProjectCard title="Go Fish" subTitle="Eget projekt i Android" githubLink="https://github.com/jennetblom/GoFish.git">
         <p> Appen är en digital version av kortspelet "Finns i sjön", där målet är att samla fyrtal i olika valörer.
           Projektet var ett av mina första mobilappar i utbildningen.
           Jag utvecklade både spel­logiken och animationer som visar hur korten flyttas,
           vilket gav mig en bättre förståelse för hur man gör appar mer levande och interaktiva.
+          Eftersom detta endast var ett skolprojekt visas den andra spelarens kort öppet för att kontrollera att spellogiken fungerar som tänkt.
         </p>
         <section className='imagePhoneContainer'>
           <img src={fishPlay} className='project-image' />
@@ -115,7 +115,7 @@ function Projects() {
         <p>
           Hela applikationen är byggd av mig själv, från design till kodning.
         </p>
-
+        <Button label="Mer om mig" to="/about" />
       </ProjectCard>
 
     </main>
