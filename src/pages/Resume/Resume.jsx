@@ -2,6 +2,12 @@ import './Resume.css';
 import Button from '../../components/Button/Button.jsx';
 function Resume() {
 
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/CV.pdf';
+        link.download = 'Jennet-Blom-CV.pdf';
+        link.click();
+    }
 
     return (
 
@@ -9,13 +15,13 @@ function Resume() {
             <h1 className='title'>Mitt CV</h1>
             <div className="resume-card">
 
-                <p className='resume-intro'>Med erfarenhet av att utveckla både mobila och webbapplikationer söker jag nu ett jobb inom programmering för att utvecklas och fördjupa mina kunskaper. Jag hoppas få arbeta i en roll där jag kan använda min nyfikenhet, kreativitet och förmåga att samarbeta med andra. </p>
+                <p className='resume-intro'>Med erfarenhet av att utveckla både mobila och webbapplikationer söker jag nu ett jobb inom programmering där jag kan fördjupa mina kunskaper och bidra med kreativitet, engagemang och förmåga att samarbeta med andra. </p>
                 <h2 className='resume-header'>UTBILDNING</h2>
                 <p className='resume-headingText'>Folkuniversitetet i Göteborg | Mobilapplikationsutvecklare | 2023 – 2025</p>
                 <p className='resume-text'>
-                    Praktiskt inriktad utbildning inom Android-, iOS- och cross-plattformutveckling där jag har arbetat med att bygga appar med databaser och molntjänster.
+                    Praktiskt inriktad utbildning i Android, iOS och cross-plattformutveckling där jag har arbetat med att bygga appar med databaser och molntjänster.
 
-                    Under utbildningen har jag fått praktisk erfarenhet av agila arbetssätt, teamarbete och versionshantering via GitHub. Jag har även genomfört två LIA-perioder samt ett examensarbete, där jag självständigt utvecklade en applikation från idé till färdig lösning.
+                    Under utbildningen har jag fått praktisk erfarenhet av agila arbetssätt, teamarbete och versionshantering via GitHub. Jag har även genomfört två LIA-perioder och ett examensarbete där jag självständigt utvecklade en applikation från idé till färdig produkt.
                 </p>
                 <p className='resume-headingText'>Per Brahegymnasiet i Jönköping | Estetiska programmet – Musik | 2014 – 2017</p>
                 <p className='resume-text'>
@@ -47,7 +53,7 @@ function Resume() {
                 </h2>
                 <p className='resume-text'> Programmeringsspråk: Java, Kotlin, Swift, JavaScript, C#, HTML, CSS, React, React Native</p>
                 <p className='resume-text'>Verktyg och teknologier: Android Studio, Xcode, GitHub, Firestore, AWS, Figma, Trello</p>
-                <Button label="Ladda ner CV" onClick={() => { console.log("Hej") }} />
+                <Button label="Ladda ner CV" onClick={handleDownload} />
             </div>
         </main>
 
