@@ -28,7 +28,7 @@ function Resume() {
                     I gymnasiet valde jag Programmering 1 som individuellt val. Genom läroboken Spelprogrammering.nu fick jag lära mig grunderna i C# och JavaScript.
                 </p>
                 <h2 className='resume-header'>ARBETSLIVSERFARENHETER</h2>
-                      <p className='resume-headingText'>LIA 1 – Apputveckling | Uppdrag åt Lilla Gumman</p>
+                      <p className='resume-headingText'>LIA 1 – Apputveckling | Lilla Gumman</p>
                 <p className='resume-text'>
                   Ett projekt där jag och mina två skolkamrater utvecklade en mobilapp åt konstnären bakom varumärket Lilla Gumman, en färgstark och humoristisk fiktiv figur som används i målningar och produkter i en webbshop. Vi arbetade med frontend, funktion för ”Dagens Gumma” samt inloggning och registrering med Firebase, och appen utformades för att spegla konstnärens vision, färger och typsnitt.
                 </p>
@@ -38,7 +38,7 @@ function Resume() {
                 </p>
                 <p className='resume-headingText'>2025 | Vårdbiträde | Bifrost korttidsenhet i Mölndal</p>
                 <p className='resume-text'>
-                    Under tiden lärde jag mig att arbeta effektivt under tidspress för att säkerställa att alla vårdtagare fick den hjälp och medicin de behövde. Eftersom det var en korttidsenhet var det viktigt att ställa om snabbt och anpassa sig till nya situationer och nya människor.
+                   Lärde mig arbeta effektivt under tidspress och anpassa mig snabbt till nya situationer för att säkerställa vård och stöd till alla vårdtagare.
                 </p>
                 <p className='resume-headingText'>2023 | Stödbiträde | Klämmavägens gruppbostad i Alingsås</p>
                 <p className='resume-text'>Jag stöttade personer med funktionsvariationer i vardagssysslor och personlig hygien samt deltog i sociala aktiviteter, till exempel bingo, promenader och sång.
