@@ -25,6 +25,14 @@
     margin-top: 5px;
 
 }
+
+.aboutCard-intro {
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
 .aboutCardHeading {
     font-weight: bold;
     font-size: 22px;

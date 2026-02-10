@@ -87,6 +87,10 @@
 
 }
 
+.contact-intro {
+    font-weight: 500;
+}
+
 .contact-iconGit {
     width: 38px;
     object-fit: contain;

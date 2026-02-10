@@ -12,13 +12,13 @@ function Contact() {
       <section className='contactContainer'>
         <article className='contact-card'>
           <div className='contact-text'>
-            <p>
+            <p className='contact-intro'>
               Jag är aktivt på jakt efter jobb inom programmering, och tips på lediga tjänster tas tacksamt emot.
-              Ser fram emot att bidra till spännande projekt och samarbeten.
+      
             </p>
 
             <p>
-              Jag svarar snabbast på mobilen, men du är självklart välkommen att kontakta mig via mail, LinkedIn eller GitHub också.
+              Snabbast når du mig via mobilen, men du är självklart välkommen att kontakta mig via mail, LinkedIn eller GitHub också.
               Ser fram emot att höra från dig! 🌞
             </p>
             <p className='contact-details'>Kontakta mig</p>

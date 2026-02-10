@@ -9,7 +9,7 @@ function About() {
       <section className='aboutContainer'>
         <article className='aboutCard'>
           <img src={happy} id='profilePic' />
-          <p className='aboutCardText'>
+          <p className='aboutCard-intro'>
             Jag är en nyexaminerad mobilapplikationsutvecklare med erfarenhet av Android, iOS, React Native och webbutveckling i React.
             För mig är programmering ett spännande sätt att kombinera kreativitet och logik.
           </p>

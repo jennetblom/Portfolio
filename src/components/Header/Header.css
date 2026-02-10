@@ -24,11 +24,13 @@ body {
   font-style: bold;
   font-family: Oswald;
   color: #333;
+
 }
 .nav-links-list { 
   list-style: none;     
   display: flex;       
-  gap: 20px;        
+  gap: 20px;      
+    margin-bottom: 0px;  
  }
 
 #moon {
@@ -58,19 +60,19 @@ body {
 
 #moon {
   animation: float 6s ease-in-out infinite;
-  animation-delay: 1s; /* gör så den börjar senare */
+  animation-delay: 1s; 
 }
 
 
-/* Keyframes för svävningen */
+
 @keyframes float {
   0% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* uppåt */
+    transform: translateY(-10px); 
   }
   100% {
-    transform: translateY(0); /* tillbaka ner */
+    transform: translateY(0); 
   }
 }
