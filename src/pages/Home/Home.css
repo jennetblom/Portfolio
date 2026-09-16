@@ -1,14 +1,13 @@
 .startpage {
-    font-size: 24px;
     display: flex;
     margin: 60px;
     flex-direction: row;
-    height:60vh;
+    height: 60vh;
     align-items: center;
     justify-content: center;
     gap: 80px;
 
-    
+
 }
 
 .card {
@@ -21,52 +20,25 @@
 
     align-items: center;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.267);
+    text-align: center;
 }
 
 .nameInfo {
     font-family: Akaya Telivigala;
-    text-align: center;
+
 }
 
-
-#intro {
-    font-size: 30px;
+.nameInfo>* {
     margin: 0px;
     padding: 0px;
-    text-align: center;
 }
 
 
 #name {
     font-size: 70px;
     font-weight: bold;
-
-    margin: 0px;
-    padding: 0px;
 }
 
-#description {
-    font-size: 20px;
-    text-align: center;
-}
-
-.button {
-    background: linear-gradient(180deg, #fd57a7, #f50384);
-    height: 50px;
-    border: none;
-    font-size: 14px;
-    color: white;
-    width: fit-content;
-    padding: 10px 30px;
-    border-radius: 25px;
-    box-shadow: #b40364 3px 3px 5px;
-}
-
-.button:hover {
-    background: linear-gradient(180deg, #eb509b, #df0278);
-    transform: scale(1.05);
-       transition: transform 0.3s ease;
-}
 
 .image-container {
     display: flex;
